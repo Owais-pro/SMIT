@@ -7,6 +7,8 @@
 </head>
 <body>
     <form action="">
+       <fieldset>
+        <legend>User-Information</legend> 
         <p><b>Student Name</b> :
             <input type="text" name="Sname" placeholder="Enter your Name" required>
         </p>
@@ -14,7 +16,7 @@
             <input type="text" name="Sname" placeholder="Enter Father Name" required>
         </p>
         <p><b>Contact Number</b> :
-            <input type="number" name="Sname" placeholder="Enter Contact Number" required>
+            <input type="tel" name="Sname" placeholder="Enter Contact Number" required>
         </p>
         <p><b>Email :</b>
             <input type="email" name="Sname" placeholder="Enter your Email" required>
@@ -22,25 +24,41 @@
         <p><b>Password :</b>
             <input type="password" name="Sname" placeholder="Enter your Password" required>
         </p>
-        <p><b> Marital Status :</b>
-            <input type="radio" name="Status" id="" value="Single">Single
-            <input type="radio" name="Status" id="" value="Married">Married
-        </p>
-        <p><b>Which Browser do you use :</b>
-            <input type="checkbox" checked>Google
-            <input type="checkbox"> Microsoft Edge
-            <input type="checkbox">Mozilla Firefox
-        </p>
-        <p><b>Select Your Program :</b>
-            <select name="Course" id="">
-                <option value="html">MTML</option>
-                <option value="Css">Css</option>
-                <option value="Js">Java Script</option>
-            </select>
-        </p>
-        <p><b>Any Suggestion</b> </p>
-        <textarea name="comment" id="" cols="20" rows="10" placeholder="Enter your Suggestion......"></textarea>
-       
+       </fieldset>
+        <fieldset>
+            <legend>Additional-Information</legend>
+            <p><b> Marital Status :</b>
+                <input type="radio" name="Status" id="" value="Single">Single
+                <input type="radio" name="Status" id="" value="Married">Married
+            </p>
+            <p><b>Which Browser do you use :</b>
+                <input type="checkbox" checked>Google
+                <input type="checkbox"> Microsoft Edge
+                <input type="checkbox">Mozilla Firefox
+            </p>
+            <p><b>Select Your Program :</b>
+                <select name="Course">
+                    <option selected disabled>Select Your Program</option>
+                    <option value="html">HTML</option>
+                    <option value="Css">Css</option>
+                    <option value="Js">Java Script</option>
+                </select>
+            </p>
+            <p><b>Provide your Social Media URL:</b>
+                <input type="url" name="url">
+            </p>
+            </p>
+            <p><b>Enter Date & Time:</b>
+                <input type="datetime-local" name="url">
+            </p>
+            <p><b>Upload Image</b>
+                <input type="file" name="Image" accept="image/png">
+            </p>
+        </fieldset>
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
