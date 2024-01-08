@@ -13,6 +13,8 @@
     text-align: left;
     
 }
-.color-class>h2{
-    color: green;
+.color-class>h1{
+    color: rgb(62, 152, 62);
+    font-size: 40px;
+    font-weight: 300;
 }
