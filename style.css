@@ -1,10 +1,18 @@
 
  body {
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 #Css-select{
     text-align: left;
 }
 .Css-style{
     text-align: left;
+}
+.color-class{
+    text-align: left;
+    
+}
+.color-class>h2{
+    color: green;
 }
