@@ -1,0 +1,36 @@
+body{
+    background-image: url(nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container{
+    width: 300px;
+    margin: 250px auto 250px auto;
+    border: 5px blueviolet solid;
+    border-radius: 100px;
+    background-color: rgba(249, 245, 245, 0.2);
+}
+.first{
+    text-align: center;
+    font-family: Impact;
+    text-transform: lowercase;
+    word-spacing: 10px;  
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.second{
+    text-align: center;
+    font-family: Impact;
+    text-transform: uppercase;
+    word-spacing: 20px; 
+    letter-spacing: 10px;
+}
+.third{
+    text-align: center;
+    font-family: Impact;
+    text-transform: lowercase;
+    word-spacing: 10px; 
+    font-weight: 400;
+    letter-spacing: 5px;
+    
+}
