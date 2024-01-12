@@ -4,7 +4,7 @@ body{
     background-size: cover;
 }
 .Container{
-    width: 300px;
+    max-width: 300px;
     margin: 250px auto 250px auto;
     border-radius: 10px;
     background-color: rgba(241, 231, 231, 0.5);
